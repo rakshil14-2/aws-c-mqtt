@@ -206,3 +206,19 @@ int aws_mqtt_client_connection_ping(struct aws_mqtt_client_connection *connectio
 Sends a PINGREQ packet to the server.
 
 [aws-c-io]: https://github.com/awslabs/aws-c-io
+
+<!-- PLATFORM_SUPPORT_START -->
+# Platform Support
+
+## Tier 1 — Fully Supported & Tested in CI
+
+| Platform | Architecture |
+|----------|--------------|
+| manylinux2014 | x64, x86 |
+
+## Tier 2 — Supported (Not Tested in CI)
+
+| Platform | Architecture |
+|----------|--------------|
+
+<!-- PLATFORM_SUPPORT_END -->
